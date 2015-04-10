@@ -1,0 +1,130 @@
+/*
+Theme Name: Hyperion Wholesale
+Author: Jeffrey Malek
+Author URI: http://www.hyperionwholesale.com
+Version: 0.0
+ */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica;
+    color: #999;
+    font-size: 1em;
+    /*background-color: lightgrey;*/
+    background: linear-gradient(lightgrey, grey);
+
+}
+
+a:link,
+a:visited {
+    color: darkturquoise;
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 1.2em;
+    padding: 10px 0px 10px 0px;
+}
+
+/*General Layout*/
+
+div.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: ghostwhite;
+    border-radius: 0px 0px 5px 5px;
+    border: 5px solid #999;
+    clear: both;
+}
+
+article.post {
+    border-bottom: 2px solid #999;
+}
+
+/*Header*/
+.site-header {
+    border-bottom: 2px solid #999;
+    /*background-color: blue;*/
+    padding: 10px 0px 10px 0px;
+    /*position: fixed;*/
+}
+
+#top-logo {
+    width: 450px;
+    height: 200px;
+    border-radius: 20px;
+    border: 5px solid grey;
+}
+#hyperion-blurb {
+    text-align: left;
+    font-size: 2em;
+}
+.brown-head {
+}
+.contact-block {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 2em;
+}
+.bottom-border {
+    border-bottom: 2px solid grey;
+    margin: 0 auto;
+    width: 97%;
+}
+.green-head {
+    color: #8cb73d;
+    font-weight: bold;
+    text-decoration: underline;
+}
+/*.green-head a:hover {
+    text-decoration: none;
+}*/
+
+.brown-head,
+.green-head h1 {
+    font-size: 2em; 
+}
+.brand-header {
+    text-align: left;
+    font-size: 3em;
+    color: #722727;
+    text-decoration: underline;
+    font-weight: bold; 
+}
+
+.brand-logos {
+    border: 2px solid #999;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+}
+.brand-logos img {
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#jerky_good_clean_small {
+   /* height: 290px;*/
+}
+
+#brand-text-bottom h1 {
+    text-align: center;
+    padding-top: 13%;
+}
+
+/*Footer*/
+.site-footer {
+    border-top: 2px solid #999;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+}
