@@ -111,6 +111,9 @@ article.post {
     padding-left: 10px;
     padding-right: 10px;
 }
+.brand-logos:hover {
+    /*background-color: grey;*/
+}
 
 #jerky_good_clean_small {
    /* height: 290px;*/
@@ -128,3 +131,32 @@ article.post {
     margin: 0 auto;
     padding: 10px;
 }
+
+@media (max-width: 935px) {
+  #top-logo {
+    height: 180px;
+    width: 410px;
+  }
+}
+
+@media (max-width: 400px) {
+  #top-logo {
+    height: 120px;
+    width: 330px;
+  }
+}
+@media (max-width: 320px) {
+  #top-logo {
+    height: 100px;
+    width: 250px;
+  }
+}
+
+
+
+
+
+
+
+
+
