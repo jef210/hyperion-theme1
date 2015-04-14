@@ -28,39 +28,46 @@ if (have_posts()):
 <!-- Brand Images -->
 <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+    <a href="http://greensmartliving.com/" target="_blank">
         <div class="brand-logos" id="gsl_logo"><img src="<?php bloginfo('template_directory'); ?>/assets/images/gsl_logo-400x400.png" alt="green smart living"</div>
-        </div>
+        </div></a>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-        <div class="brand-logos"><img src="<?php bloginfo('template_directory'); ?>/assets/images/jerky_good_clean_small.png" alt="green smart living" id="jerky_good_clean_small"</div>
-        </div>
+    <a href="http://www.lonestarwv.com/" target="_blank">
+        <div class="brand-logos" id="lone_star_logo"><img src="<?php bloginfo('template_directory'); ?>/assets/images/jerky_good_clean_small.png" />
+        </div></a>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-        <div class="brand-logos" id="gsl_logo"><img src="<?php bloginfo('template_directory'); ?>/assets/images/sol_logo.png" alt=""</div>
-        </div>
+    <a href="http://snackoutloud.com/" target="_blank">
+        <div class="brand-logos" id="snack_out_loud_logo"><img src="<?php bloginfo('template_directory'); ?>/assets/images/sol_logo.png" alt=""/>
+        </div></a>
     </div>
 </div>
 
 <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-        <div class="brand-logos" id="gsl_logo"><img src="<?php bloginfo('template_directory'); ?>/assets/images/horseshoe7631_3x3.jpg" alt=""</div>
-        </div>
+    <a href="http://www.rickysluckynuts.com/" target="_blank">
+        <div class="brand-logos" id="rickys_nuts_logo"><img src="<?php bloginfo('template_directory'); ?>/assets/images/horseshoe7631_3x3.jpg" alt=""/>
+        </div></a>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-        <div class="brand-logos"><img src="<?php bloginfo('template_directory'); ?>/assets/images/wild-zora-logodark.png" alt="green smart living" id="jerky_good_clean_small"</div>
-        </div>
+    <a href="http://www.wildzora.com/" target="_blank">
+        <div class="brand-logos" id="wild_zora_logo"><img src="<?php bloginfo('template_directory'); ?>/assets/images/wild-zora-logodark.png" alt=""/>
+        </div></a>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-        <div class="brand-logos" id="gsl_logo"><img src="<?php bloginfo('template_directory'); ?>/assets/images/olomomo_logo.png" alt="green smart living"</div>
-        </div>
+    <a href="http://olomomo.com/" target="_blank">
+        <div class="brand-logos" id="olomomo_logo"><img src="<?php bloginfo('template_directory'); ?>/assets/images/olomomo_logo.png" alt=""/>
+        </div></a>
     </div>
 </div>
 <div class="row">
     <div class="col-xs-12 col-sm-6 col-lg-4">
-        <div class="brand-logos" id="gsl_logo"><img src="<?php bloginfo('template_directory'); ?>/assets/images/rocky_mountain_popcorn.png" alt="green smart living"</div>
-        </div>
+    <a href="http://openroadsnacks.com/" target="_blank">
+        <div class="brand-logos" id="rocky_mountain_popcorn_logo"><img src="<?php bloginfo('template_directory'); ?>/assets/images/rocky_mountain_popcorn.png" alt=""/>
+        </div></a>
     </div>
-    <div class="col-lg-8" id="brand-text-bottom">
+    <div class="col-xs-12 col-sm-6 col-lg-4" id="brand-text-bottom">
     <h1>Adding more all the time!</h1>
     </div>
 </div>
