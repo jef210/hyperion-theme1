@@ -14,10 +14,10 @@
 <div class="container">
 
 <!-- site header -->
-<header class="site-header">
+<!-- <header class="site-header">
     <div class="row">
         <div class="col-sm-6">
-         <a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/assets/images/hyperionlogobigx.png" id="top-logo"/>
+         <a href="<?php /*echo home_url(); */?>"><img src="<?php /*bloginfo('template_directory'); */?>/assets/images/hyperionlogobigx.png" id="top-logo"/>
             </a></a>
          </div>
          <div class="col-sm-6">
@@ -27,7 +27,6 @@
         <!-- <h5><?php /*bloginfo('description'); */?></h5> -->
 
     </div>
-
 </header>
 
 

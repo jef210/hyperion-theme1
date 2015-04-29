@@ -7,26 +7,30 @@ if (have_posts()):
 
 <!-- title of the post -->
 <div class="row">
-    <div class="col-xs-12 contact-block green-head"<
-        <h1<?php the_permalink(); ?>><?php the_title(); ?></h1>
+    <div class="col-xs-12" id="top-full-image">
+        <div class="top-text-box col-sm-12 col-md-8 col-lg-8">
+        <div id="hyperion-blurb">
+            <p>Hyperion Wholesale is privileged to be a full service DSD and Wholesale distributor in the Front Range of Colorado.  We pride ourselves in our top-notch customer service, our product guarantees, and the product brands we represent.</p>
+        </div>
+        </div>
     </div>
 </div>
 
         <!-- content of the post -->
-<div class="row">
+<!-- <div class="row">
     <div class="col-xs-12 contact-block bottom-border">
-        <?php the_content(); ?>
+        <?/*php the_content(); */?>
     </div>    
 </div>
 <div class="row">
     <div class="col-xs-12">
        <h1 class="brand-header">Our Brands</h1>
     </div>    
-</div>
+</div> -->
 
 
 <!-- Brand Images -->
-<div class="row">
+<!-- <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
     <a href="http://greensmartliving.com/" target="_blank">
         <div class="brand-logos" id="gsl_logo"><img src="<?php bloginfo('template_directory'); ?>/assets/images/gsl_logo-400x400.png" alt="green smart living"</div>
@@ -70,7 +74,7 @@ if (have_posts()):
     <div class="col-xs-12 col-sm-6 col-lg-4" id="brand-text-bottom">
     <h1>Adding more all the time!</h1>
     </div>
-</div>
+</div> -->
 
 
 
