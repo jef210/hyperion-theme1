@@ -8,18 +8,30 @@ if (have_posts()):
 <!-- title of the post -->
 <div class="row">
     <div class="col-xs-12" id="top-full-image">
-        <div class="top-text-box col-sm-12 col-md-8 col-lg-8">
+        <div class="top-text-box col-sm-12 col-md-12 col-lg-12">
         <div id="hyperion-blurb">
             <p>Hyperion Wholesale is privileged to be a full service DSD and Wholesale distributor in the Front Range of Colorado.  We pride ourselves in our top-notch customer service, our product guarantees, and the product brands we represent.</p>
-        </div>
-        </div>
-    </div>
+            <div class="btn-group">
+  <button class="btn btn-default btn-lg dropdown-toggle btn1" type="button" data-toggle="dropdown" aria-expanded="false">
+    <h1>Contact</h1> 
+  </button>
+  <ul class="dropdown-menu contact" role="menu">
+  <li><h3>Email:</h3></li>
+  <li><h3><a href="mailto:jhunter@hyperionwholesale.com">jhunter@hyperionwholesale.com</a></h3></li>
+  <li><h3>Phone:</h3></li>
+  <li><h3>(303)736-9049</h3></li>
+  </ul>
 </div>
+</div>
+</div>
+</div>
+</div>
+
 
         <!-- content of the post -->
 <!-- <div class="row">
     <div class="col-xs-12 contact-block bottom-border">
-        <?/*php the_content(); */?>
+        <?php the_content();?>
     </div>    
 </div>
 <div class="row">
