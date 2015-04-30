@@ -13,8 +13,8 @@ body {
     font-family: Helvetica;
     color: #999;
     font-size: 1em;
-    background-color: lightgrey;
-    /*background-color: ghostwhite;*/
+    /*background-color: lightgrey;*/
+    background-color: ghostwhite;
     margin: 0 auto;
 
 }
@@ -42,18 +42,8 @@ div.container {
     clear: both;
 }
 
-article.post {
-    border-bottom: 2px solid #999;
-    margin: 0 auto;
-}
 
-/*Header*/
-.site-header {
-    /*border-bottom: 2px solid #999;*/
-    /*background-color: blue;*/
-    padding: 10px 0px 10px 0px;
-    /*position: fixed;*/
-}
+
 
 #top-full-image {
     background-image: url("./assets/images/mtn-truck.jpg");
@@ -74,8 +64,8 @@ article.post {
 .top-text-box {
     background-color: rgba(55,55,55,.7);
     /*opacity: .3;*/
-    border: 1px solid grey;
-    border-radius: 5px;
+    border: 1px solid transparent;
+    /*border-radius: 5px;*/
     /*float: left;
     margin-left: 20px;*/
     /*width: 600px;*/
@@ -96,30 +86,39 @@ article.post {
     width: 260%;
     border: none;
     vertical-align: center;
+    color: ghostwhite;
+    margin-bottom: -1px;
 }
 .btn1:hover {
      background-color: hsla(33, 100%, 52%, 0.8);
+     color: white;
 }
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
-     background-color: hsla(33, 100%, 52%, 0.8);
+     background-color: hsla(33, 100%, 52%, 1.0);
+    border: none;
 }
 
 .contact {
-    background-color: hsla(33, 100%, 52%, 0.8);
+    background-color: hsla(33, 100%, 52%, 1.0);
     width: 260%;
     margin: auto;
     padding: 20px;
 
 }
 
-
-
+.brand-box {
+    width: auto;
+    height: 100%;
+    margin: 0px auto;
+    padding: 30px;
+}
 
 .bottom-border {
     border-bottom: 2px solid grey;
     margin: 0 auto;
-    width: 97%;
+    width: 87%;
 }
+
 .green-head {
     color: #8cb73d;
     font-weight: bold;
@@ -133,6 +132,7 @@ article.post {
 .green-head h1 {
     font-size: 2em; 
 }
+
 .brand-header {
     text-align: left;
     font-size: 3em;
@@ -168,6 +168,9 @@ article.post {
     text-align: center;
     padding-top: 13%;
 }
+
+
+
 
 /*Footer*/
 .site-footer {

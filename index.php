@@ -11,21 +11,183 @@ if (have_posts()):
         <div class="top-text-box col-sm-12 col-md-12 col-lg-12">
         <div id="hyperion-blurb">
             <p>Hyperion Wholesale is privileged to be a full service DSD and Wholesale distributor in the Front Range of Colorado.  We pride ourselves in our top-notch customer service, our product guarantees, and the product brands we represent.</p>
-            <div class="btn-group">
+<div class="btn-group">
   <button class="btn btn-default btn-lg dropdown-toggle btn1" type="button" data-toggle="dropdown" aria-expanded="false">
-    <h1>Contact</h1> 
+  <h1>Contact</h1> 
   </button>
   <ul class="dropdown-menu contact" role="menu">
-  <li><h3>Email:</h3></li>
-  <li><h3><a href="mailto:jhunter@hyperionwholesale.com">jhunter@hyperionwholesale.com</a></h3></li>
-  <li><h3>Phone:</h3></li>
-  <li><h3>(303)736-9049</h3></li>
+    <li><h3>Email:</h3></li>
+    <li><h3><a href="mailto:jhunter@hyperionwholesale.com">jhunter@hyperionwholesale.com</a></h3></li>
+    <li><h3>Phone:</h3></li>
+    <li><h3>(303)736-9049</h3></li>
   </ul>
 </div>
 </div>
 </div>
 </div>
 </div>
+
+
+
+<div class="row">
+  <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <div class="btn-group">
+    <button class="btn btn-default btn-lg dropdown-toggle brand-box" type="button" data-toggle="dropdown" aria-expanded="false">
+    <h1>Brand1</h1> 
+    </button>
+      <ul class="dropdown-menu contact" role="menu">
+        <p>about</p>
+        <p>stuff about the brand</p>
+      </ul>
+    </div>
+  </div> 
+
+   <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <div class="btn-group">
+    <button class="btn btn-default btn-lg dropdown-toggle brand-box" type="button" data-toggle="dropdown" aria-expanded="false">
+    <h1>Brand2</h1> 
+    </button>
+      <ul class="dropdown-menu contact" role="menu">
+        <p>about</p>
+        <p>stuff about the brand</p>
+      </ul>
+    </div>
+  </div> 
+
+  <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <div class="btn-group">
+    <button class="btn btn-default btn-lg dropdown-toggle brand-box" type="button" data-toggle="dropdown" aria-expanded="false">
+    <h1>Brand3</h1> 
+    </button>
+      <ul class="dropdown-menu contact" role="menu">
+        <p>about</p>
+        <p>stuff about the brand</p>
+      </ul>
+    </div>
+  </div> 
+
+  <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <div class="btn-group">
+    <button class="btn btn-default btn-lg dropdown-toggle brand-box" type="button" data-toggle="dropdown" aria-expanded="false">
+    <h1>Brand4</h1> 
+    </button>
+      <ul class="dropdown-menu contact" role="menu">
+        <p>about</p>
+        <p>stuff about the brand</p>
+      </ul>
+    </div>
+  </div> 
+</div>
+
+
+
+<div class="row">
+  <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <div class="btn-group">
+    <button class="btn btn-default btn-lg dropdown-toggle brand-box" type="button" data-toggle="dropdown" aria-expanded="false">
+    <h1>Brand1</h1> 
+    </button>
+      <ul class="dropdown-menu contact" role="menu">
+        <p>about</p>
+        <p>stuff about the brand</p>
+      </ul>
+    </div>
+  </div> 
+
+   <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <div class="btn-group">
+    <button class="btn btn-default btn-lg dropdown-toggle brand-box" type="button" data-toggle="dropdown" aria-expanded="false">
+    <h1>Brand2</h1> 
+    </button>
+      <ul class="dropdown-menu contact" role="menu">
+        <p>about</p>
+        <p>stuff about the brand</p>
+      </ul>
+    </div>
+  </div> 
+
+  <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <div class="btn-group">
+    <button class="btn btn-default btn-lg dropdown-toggle brand-box" type="button" data-toggle="dropdown" aria-expanded="false">
+    <h1>Brand3</h1> 
+    </button>
+      <ul class="dropdown-menu contact" role="menu">
+        <p>about</p>
+        <p>stuff about the brand</p>
+      </ul>
+    </div>
+  </div> 
+
+  <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <div class="btn-group">
+    <button class="btn btn-default btn-lg dropdown-toggle brand-box" type="button" data-toggle="dropdown" aria-expanded="false">
+    <h1>Brand4</h1> 
+    </button>
+      <ul class="dropdown-menu contact" role="menu">
+        <p>about</p>
+        <p>stuff about the brand</p>
+      </ul>
+    </div>
+  </div> 
+</div>
+
+
+
+<div class="row">
+  <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <div class="btn-group">
+    <button class="btn btn-default btn-lg dropdown-toggle brand-box" type="button" data-toggle="dropdown" aria-expanded="false">
+    <h1>Brand1</h1> 
+    </button>
+      <ul class="dropdown-menu contact" role="menu">
+        <p>about</p>
+        <p>stuff about the brand</p>
+      </ul>
+    </div>
+  </div> 
+
+   <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <div class="btn-group">
+    <button class="btn btn-default btn-lg dropdown-toggle brand-box" type="button" data-toggle="dropdown" aria-expanded="false">
+    <h1>Brand2</h1> 
+    </button>
+      <ul class="dropdown-menu contact" role="menu">
+        <p>about</p>
+        <p>stuff about the brand</p>
+      </ul>
+    </div>
+  </div> 
+
+  <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <div class="btn-group">
+    <button class="btn btn-default btn-lg dropdown-toggle brand-box" type="button" data-toggle="dropdown" aria-expanded="false">
+    <h1>Brand3</h1> 
+    </button>
+      <ul class="dropdown-menu contact" role="menu">
+        <p>about</p>
+        <p>stuff about the brand</p>
+      </ul>
+    </div>
+  </div> 
+
+  <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <div class="btn-group">
+    <button class="btn btn-default btn-lg dropdown-toggle brand-box" type="button" data-toggle="dropdown" aria-expanded="false">
+    <h1>Brand4</h1> 
+    </button>
+      <ul class="dropdown-menu contact" role="menu">
+        <p>about</p>
+        <p>stuff about the brand</p>
+      </ul>
+    </div>
+  </div> 
+</div>
+
+
+
+
+
+
 
 
         <!-- content of the post -->
