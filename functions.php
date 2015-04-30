@@ -1,4 +1,11 @@
 <?php
+function register_jquery() {
+    wp_deregister_script( 'jquery' );
+    wp_register_script( 'jquery', ( 'https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js' ), false, null, true );
+    wp_enqueue_script( 'jquery' );
+}
+
+add_action( 'wp_enqueue_scripts', 'register_jquery' );
 
 function styleSheetInclude_resources() {
 
@@ -9,13 +16,22 @@ function styleSheetInclude_resources() {
 add_action('wp_enqueue_scripts', 'styleSheetInclude_resources');
 
 
+
+add_action( 'wp_enqueue_scripts', 'hyperion_theme1_child_scripts' );
+
+// Bootstrap & jQuery
+// 
+
+
+
+
 function hyperion_theme1_child_scripts(){
    wp_enqueue_script( 'main js', get_template_directory_uri() . '/main.js' ); 
 }
 
 add_action( 'wp_enqueue_scripts', 'hyperion_theme1_child_scripts' );
 
-// Bootstrap & jQuery
+
 
 function enqueue_my_scripts() {
 
