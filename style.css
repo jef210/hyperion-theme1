@@ -92,6 +92,7 @@ div.row {
     border: none;
     vertical-align: center;
     color: ghostwhite;
+
     
 }
 .btn1:hover {
@@ -129,8 +130,12 @@ div.row {
     height: auto;
     margin: 0 auto;
     margin-bottom: 10px;
+    border-radius: 50%;
+    border: 10px solid black;
     /*padding: 30px;*/
 }
+
+
 
 .brand-logo {
     background-size: cover;
@@ -141,12 +146,25 @@ div.row {
     display: block;
 }
 
-#solf {
-    background-image: url("./assets/images/solf-300x300.svg");
-    
+.brand-logo:focus {
+    border-radius: 50%;
+    border: 10px solid grey;
     
 }
 
+
+#solf {
+    background-image: url("./assets/images/solf-300x300.svg");  
+}
+
+.btn:focus {
+    outline: none; 
+
+}
+
+#gsl-logo {
+    background-image: url("./assets/images/gsl-logo-300x300.svg");  
+}
 .bottom-border {
     border-bottom: 2px solid grey;
     margin: 0 auto;

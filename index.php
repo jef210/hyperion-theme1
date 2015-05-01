@@ -6,6 +6,7 @@ if (have_posts()):
     while (have_posts()) : the_post(); ?>
 
 <!-- title of the post -->
+<div class="container">
 <div class="row">
     <div class="col-xs-12" id="top-full-image">
         <div class="top-text-box col-sm-12 col-md-12 col-lg-12">
@@ -26,6 +27,7 @@ if (have_posts()):
 </div>
 </div>
 </div>
+</div>
 
 <div class="container black-back">
 <div class="row" id="brand-header">
@@ -39,7 +41,7 @@ if (have_posts()):
                          
  
 
- <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+ <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
    <button type="button" class="btn btn-default brand-box brand-logo" id="solf" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
    </button>
      <ul class="dropdown-menu contact" role="menu">
@@ -48,8 +50,8 @@ if (have_posts()):
      </ul>
    </div> 
 
-   <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-     <button type="button" class="btn btn-default brand-box brand-logo" id="solf" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+   <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+     <button type="button" class="btn btn-default brand-box brand-logo" id="gsl-logo" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
      </button>
        <ul class="dropdown-menu contact" role="menu">
          <p>about</p>
@@ -57,7 +59,7 @@ if (have_posts()):
        </ul>
      </div> 
 
-    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
      <button type="button" class="btn btn-default brand-box brand-logo" id="solf" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
      </button>
        <ul class="dropdown-menu contact" role="menu">
@@ -66,7 +68,7 @@ if (have_posts()):
        </ul>
      </div>
 
-    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
      <button type="button" class="btn btn-default brand-box brand-logo" id="solf" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
      </button>
        <ul class="dropdown-menu contact" role="menu">
