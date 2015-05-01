@@ -27,15 +27,20 @@ if (have_posts()):
 </div>
 </div>
 
+<div class="container black-back">
+<div class="row" id="brand-header">
+<h1>Our Brands</h1>
+</div>
+</div>
 
-<div class="container">
+
+<div class="container black-back">
 <div class="row">
                          
  
 
  <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-   <button type="button" class="btn btn-default brand-box" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-     Brand1
+   <button type="button" class="btn btn-default brand-box brand-logo" id="solf" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
    </button>
      <ul class="dropdown-menu contact" role="menu">
        <p>about</p>
@@ -43,84 +48,77 @@ if (have_posts()):
      </ul>
    </div> 
 
- <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-   <button type="button" class="btn btn-default brand-box" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-     Brand1
-   </button>
-     <ul class="dropdown-menu contact" role="menu">
-       <p>about</p>
-       <p>stuff about the brand</p>
-     </ul>
-   </div> 
+   <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+     <button type="button" class="btn btn-default brand-box brand-logo" id="solf" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+     </button>
+       <ul class="dropdown-menu contact" role="menu">
+         <p>about</p>
+         <p>stuff about the brand</p>
+       </ul>
+     </div> 
 
     <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-   <button type="button" class="btn btn-default brand-box" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-     Brand1
-   </button>
-     <ul class="dropdown-menu contact" role="menu">
-       <p>about</p>
-       <p>stuff about the brand</p>
-     </ul>
-   </div> 
+     <button type="button" class="btn btn-default brand-box brand-logo" id="solf" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+     </button>
+       <ul class="dropdown-menu contact" role="menu">
+         <p>about</p>
+         <p>stuff about the brand</p>
+       </ul>
+     </div>
 
     <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-   <button type="button" class="btn btn-default brand-box" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-     Brand1
-   </button>
-     <ul class="dropdown-menu contact" role="menu">
-       <p>about</p>
-       <p>stuff about the brand</p>
-     </ul>
-   </div> 
+     <button type="button" class="btn btn-default brand-box brand-logo" id="solf" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+     </button>
+       <ul class="dropdown-menu contact" role="menu">
+         <p>about</p>
+         <p>stuff about the brand</p>
+       </ul>
+     </div>
 
 </div>
 </div>
 
 
-<div class="container">
+<div class="container black-back">
 <div class="row">
                          
  
 
- <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-   <button type="button" class="btn btn-default brand-box" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-     Brand1
-   </button>
-     <ul class="dropdown-menu contact" role="menu">
-       <p>about</p>
-       <p>stuff about the brand</p>
-     </ul>
-   </div> 
+  <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+     <button type="button" class="btn btn-default brand-box brand-logo" id="solf" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+     </button>
+       <ul class="dropdown-menu contact" role="menu">
+         <p>about</p>
+         <p>stuff about the brand</p>
+       </ul>
+     </div> 
 
- <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-   <button type="button" class="btn btn-default brand-box" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-     Brand1
-   </button>
-     <ul class="dropdown-menu contact" role="menu">
-       <p>about</p>
-       <p>stuff about the brand</p>
-     </ul>
-   </div> 
+  <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+     <button type="button" class="btn btn-default brand-box brand-logo" id="solf" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+     </button>
+       <ul class="dropdown-menu contact" role="menu">
+         <p>about</p>
+         <p>stuff about the brand</p>
+       </ul>
+     </div> 
 
-    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-   <button type="button" class="btn btn-default brand-box" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-     Brand1
-   </button>
-     <ul class="dropdown-menu contact" role="menu">
-       <p>about</p>
-       <p>stuff about the brand</p>
-     </ul>
-   </div> 
+     <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+     <button type="button" class="btn btn-default brand-box brand-logo" id="solf" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+     </button>
+       <ul class="dropdown-menu contact" role="menu">
+         <p>about</p>
+         <p>stuff about the brand</p>
+       </ul>
+     </div> 
 
-    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-   <button type="button" class="btn btn-default brand-box" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-     Brand1
-   </button>
-     <ul class="dropdown-menu contact" role="menu">
-       <p>about</p>
-       <p>stuff about the brand</p>
-     </ul>
-   </div> 
+   <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+     <button type="button" class="btn btn-default brand-box brand-logo" id="solf" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+     </button>
+       <ul class="dropdown-menu contact" role="menu">
+         <p>about</p>
+         <p>stuff about the brand</p>
+       </ul>
+     </div>
 
 </div>
 </div>
@@ -128,50 +126,46 @@ if (have_posts()):
 
 
 
-<div class="container">
+<div class="container black-back">
 <div class="row">
                          
  
 
- <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-   <button type="button" class="btn btn-default brand-box" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-     Brand1
-   </button>
-     <ul class="dropdown-menu contact" role="menu">
-       <p>about</p>
-       <p>stuff about the brand</p>
-     </ul>
-   </div> 
+  <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+     <button type="button" class="btn btn-default brand-box brand-logo" id="solf" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+     </button>
+       <ul class="dropdown-menu contact" role="menu">
+         <p>about</p>
+         <p>stuff about the brand</p>
+       </ul>
+     </div>
 
  <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-   <button type="button" class="btn btn-default brand-box" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-     Brand1
-   </button>
-     <ul class="dropdown-menu contact" role="menu">
-       <p>about</p>
-       <p>stuff about the brand</p>
-     </ul>
-   </div> 
+     <button type="button" class="btn btn-default brand-box brand-logo" id="solf" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+     </button>
+       <ul class="dropdown-menu contact" role="menu">
+         <p>about</p>
+         <p>stuff about the brand</p>
+       </ul>
+     </div>
 
     <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-   <button type="button" class="btn btn-default brand-box" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-     Brand1
-   </button>
-     <ul class="dropdown-menu contact" role="menu">
-       <p>about</p>
-       <p>stuff about the brand</p>
-     </ul>
-   </div> 
+     <button type="button" class="btn btn-default brand-box brand-logo" id="solf" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+     </button>
+       <ul class="dropdown-menu contact" role="menu">
+         <p>about</p>
+         <p>stuff about the brand</p>
+       </ul>
+     </div>
 
-    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-   <button type="button" class="btn btn-default brand-box" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-     Brand1
-   </button>
-     <ul class="dropdown-menu contact" role="menu">
-       <p>about</p>
-       <p>stuff about the brand</p>
-     </ul>
-   </div> 
+   <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+     <button type="button" class="btn btn-default brand-box brand-logo" id="solf" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+     </button>
+       <ul class="dropdown-menu contact" role="menu">
+         <p>about</p>
+         <p>stuff about the brand</p>
+       </ul>
+     </div>
 
 </div>
 </div>
