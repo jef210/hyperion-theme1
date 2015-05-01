@@ -13,7 +13,6 @@ body {
     font-family: Helvetica;
     color: #999;
     font-size: 1em;
-    /*background-color: lightgrey;*/
     background-color: ghostwhite;
     margin: 0 auto;
 
@@ -25,7 +24,7 @@ a:visited {
 }
 
 p {
-    font-size: 1.5em;
+    font-size: 1.4em;
     line-height: 1.2em;
     padding: 10px 0px 10px 0px;
 }
@@ -36,8 +35,6 @@ div.container {
     min-width: 100%;
     margin: 0 auto;
     padding: 0px;
-    /*border-radius: 0px 0px 5px 5px;*/
-    /*border: 5px solid #999;*/
     clear: both;
 }
 
@@ -54,45 +51,59 @@ div.row {
     background-image: url("./assets/images/mtn-truck.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: bottom right;
     /*width: auto;*/
     min-height: 400px;
     
 }
 
-/*#top-logo {
-    width: 450px;
-    height: 200px;
-    border-radius: 20px;
-    border: 5px solid grey;
-}*/
+#top-logo {
+    
+    background-size: 100%;
+    background-position: top left;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    width: auto;
+    /*height: 110px;*/
+    border: 5px solid black;
+    outline: none;
+    opacity: .8;
+    box-shadow: 5px 5px 5px rgba(55,55,55,1.0);
+}
 
 .top-text-box {
-    background-color: rgba(55,55,55,.7);
-    /*opacity: .3;*/
+    background-color: rgba(55,55,55,.6);
     border: 1px solid transparent;
-    /*border-radius: 5px;*/
-    /*float: left;
-    margin-left: 20px;*/
-    /*width: 600px;*/
     min-height:400px;
 }
 
 #hyperion-blurb {
     text-align: left;
-    font-size: 1.7em;
+    font-size: 3em;
     color: ghostwhite;
     padding: 30px;
     margin: 30px;
+    text-shadow: 5px 5px 3px hsla(278, 15%, 14%, 0.96);
+    display:block;
 }
+
+#hyperion-blurb h1 {
+  /*text-decoration: underline;*/
+  display: inline;
+} 
+
+.hyperion-blurb p {
+  display: inline-block;
+} 
+
 
 .btn1 {
     background-color: hsla(33, 100%, 52%, 0.58);
-    padding: 0px 20px 20px 20px;
+    padding: 0px 30px 30px 30px;
     width: 260%;
     border: none;
     vertical-align: center;
     color: ghostwhite;
-
     
 }
 .btn1:hover {
@@ -108,7 +119,7 @@ div.row {
     background-color: hsla(33, 100%, 52%, 1.0);
     width: 260%;
     margin: auto;
-    padding: 20px;
+    padding: 40px;
 
 }
 
@@ -124,6 +135,8 @@ div.row {
     font-size: 5em;
 }
 
+/*----- Brand Logos ------*/
+
 .brand-box {
     display: block;
     max-width: 100%;
@@ -134,7 +147,20 @@ div.row {
     border: 10px solid black;
     /*padding: 30px;*/
 }
+.brand-box:focus {
+    /*background-color: grey;*/
+    box-shadow: 5px 5px 5px rgba(55,55,55,1.0);
+}
+.brand-box:hover {
+    /*background-color: grey;*/
+    box-shadow: 5px 5px 5px rgba(55,55,55,1.0);
+}
 
+.brand-box-text {
+    color:white;
+    font-size: 1em;
+    text-align: center;
+}
 
 
 .brand-logo {
@@ -152,79 +178,78 @@ div.row {
     
 }
 
+.brand-box-text {
 
-#solf {
-    background-image: url("./assets/images/solf-300x300.svg");  
 }
 
 .btn:focus {
     outline: none; 
-
 }
 
+#lone-star-logo {
+    background-image: url("./assets/images/lone-star-logo-300x300.svg");  
+}
+
+/*#solf:focus {
+    background-image: none;
+}*/
+
+
+
+#sw-jerky-logo {
+    background-image: url("./assets/images/sw-jerky-logo-300x300.svg");  
+}
+#solf-logo {
+    background-image: url("./assets/images/solf-300x300.svg");  
+}
+#buffalo-bills-logo {
+    background-image: url("./assets/images/buffalo-bills-logo-300x300.svg");  
+}
+#olomomo-logo {
+    background-image: url("./assets/images/olomomo-logo-300x300.svg");  
+}
+#wild-zora-logo {
+    background-image: url("./assets/images/wild-zora-logo-300x300.svg");  
+}
+#rm-popcorn-logo {
+    background-image: url("./assets/images/rm-popcorn-logo-300x300.svg");  
+}
+#horseshoe-logo {
+    background-image: url("./assets/images/horseshoe-logo-300x300.svg");  
+}
 #gsl-logo {
     background-image: url("./assets/images/gsl-logo-300x300.svg");  
 }
+
+.bottom-logo {
+  background-size: 100%;
+  background-position: top left;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  width: auto;
+  margin: 10px;
+  /*height: 110px;*/
+  border: 5px solid black;
+  outline: none;
+  opacity: .8;
+  box-shadow: 5px 5px 5px rgba(55,55,55,1.0);
+}
+
+
 .bottom-border {
-    border-bottom: 2px solid grey;
+    border-bottom: 5px solid grey;
     margin: 0 auto;
     width: 87%;
 }
 
-.green-head {
-    color: #8cb73d;
-    font-weight: bold;
-    text-decoration: underline;
-}
-/*.green-head a:hover {
-    text-decoration: none;
-}*/
-
-.brown-head,
-.green-head h1 {
-    font-size: 2em; 
-}
-
-.brand-header {
-    text-align: left;
-    font-size: 3em;
-    color: #722727;
-    text-decoration: underline;
-    font-weight: bold; 
-}
-
-.brand-logos {
-    border: 2px solid #999;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    height: 300px;
-    width: 100%;
-    background-color: white;
-    cursor: pointer;
-}
-.brand-logos img {
-    height: 100%;
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.brand-logos:hover {
-    border: 3px solid #8cb73d;
-}
-
-#jerky_good_clean_small {
-   /* height: 290px;*/
-}
-
-#brand-text-bottom h1 {
-    text-align: center;
-    padding-top: 13%;
-}
 
 
 
 
-/*Footer*/
+
+
+
+/*-------- FOOTER -------*/
 .site-footer {
     border-top: 2px solid #999;
     text-align: center;
@@ -232,30 +257,78 @@ div.row {
     padding: 10px;
 }
 
+
+/*------- MEDIA QUERIES -------*/
+
+
 @media (max-width: 935px) {
-  #top-logo {
-    height: 180px;
-    width: 100%;
-  }
+  .btn1 {
+    width: 150%;
+}
+  
+}
+
+@media (max-width: 700px){
+
+#hyperion-blurb {
+    font-size: 1.6em;
+    color: ghostwhite;
+    padding: 10px;
+    margin: 10px;
+}
+#top-full-image {
+    background-position: center;
+}
+  
+}
+
+@media (min-width: 700px){
+#top-logo {
+  display: none;
+}
+#hyperion-blurb {
+  font-size: 2em;
+}
 }
 
 @media (max-width: 400px) {
-  #top-logo {
-    height: 120px;
-    width: 100%;
-  }
-  .contact-block {
-    font-size: 1em;
-  }
+
+  #hyperion-blurb {
+    /*text-align: left;*/
+    font-size: 1.8em;
+    color: ghostwhite;
+    padding: 5px;
+    margin: 5px;
 }
+.btn1 {
+    width: 150%;
+}
+
+.contact {
+    background-color: hsla(33, 100%, 52%, 1.0);
+    width: 160%;
+    margin: auto;
+    padding: 10px;
+}
+.contact h3 {
+    font-size: 1.2em;
+}
+.btn1 {
+    text-decoration: underline;
+}
+#brand-header {
+    text-decoration: none;
+}
+
+}
+
+
+
+
+
 @media (max-width: 320px) {
-  #top-logo {
-    height: 100px;
-    width: 100%;
-  }
-  .contact-block {
-    font-size: .8em;
-  }
+  
+  
 }
 
 

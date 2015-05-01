@@ -8,6 +8,14 @@ $(document).ready(function() {
 
 $('.brand-box').popover();
 
+// $('.brand-box').click(function(){
+    
+    // $(this).append('<p>I\'m a paragraph</p>');
+    
+
+// })
+
+
     
 });
 
