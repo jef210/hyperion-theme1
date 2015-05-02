@@ -83,7 +83,6 @@ div.row {
     color: ghostwhite;
     padding: 30px;
     margin: 30px;
-    text-shadow: 5px 5px 3px hsla(278, 15%, 14%, 0.96);
     display:block;
 }
 
@@ -92,18 +91,24 @@ div.row {
   display: inline;
 } 
 
+.shadow-text {
+    text-shadow: 5px 5px 3px hsla(278, 15%, 14%, 0.96);
+
+}
+
 .hyperion-blurb p {
-  display: inline-block;
+  /*display: inline-block;*/
 } 
 
 
 .btn1 {
     background-color: hsla(33, 100%, 52%, 0.58);
-    padding: 0px 30px 30px 30px;
+    padding: 30px 30px 30px 30px;
     width: 260%;
     border: none;
-    vertical-align: center;
+    vertical-align: middle;
     color: ghostwhite;
+    margin: 0 auto;
     
 }
 .btn1:hover {
@@ -115,11 +120,21 @@ div.row {
     border: none;
 }
 
+.popover-title {
+    color: black;
+    font-size: 15px;
+}
+.popover-content {
+    color: grey;
+    font-size: 10px;
+}
+
 .contact {
     background-color: hsla(33, 100%, 52%, 1.0);
     width: 260%;
     margin: auto;
     padding: 40px;
+
 
 }
 
