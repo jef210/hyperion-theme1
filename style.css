@@ -2,7 +2,7 @@
 Theme Name: Hyperion Wholesale
 Author: Jeffrey Malek
 Author URI: http://www.hyperionwholesale.com
-Version: 0.0
+Version: 0.1
  */
 * {
     margin: 0;
@@ -58,9 +58,9 @@ div.row {
 }
 
 #top-logo {
-    
-    background-size: 100%;
-    background-position: top left;
+    background-image: url('.assets/images/hyperion-logo.svg');
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     border-radius: 5px;
     width: auto;
@@ -84,6 +84,7 @@ div.row {
     padding: 30px;
     margin: 30px;
     display:block;
+    width: 100%;
 }
 
 #hyperion-blurb h1 {

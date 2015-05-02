@@ -10,7 +10,7 @@ if (have_posts()):
 <div class="row">
     <div class="col-xs-12" id="top-full-image">
         <div class="top-text-box col-sm-12 col-md-12 col-lg-12">
-        <div id="top-logo"><img src="/wordpress/wp-content/themes/hyperion_theme1/assets/images/hyperion-logo.svg"/></div>
+        <!-- <div id="top-logo"><img src="http://hyperionwholesale.com/wp-content/themes/hyperion_theme1/assets/images/hyperion-logo.svg" /></div> -->
         <div id="hyperion-blurb">
             <p class="shadow-text"><strong>HYPERION WHOLESALE </strong>is privileged to be a full service DSD and Wholesale distributor in the Front Range of Colorado.  We pride ourselves in our top-notch customer service, our product guarantees, and the product brands we represent.</p>
 <div class="btn-group">
@@ -21,7 +21,7 @@ if (have_posts()):
     <li><h3>Email:</h3></li>
     <li><h3><a href="mailto:jhunter@hyperionwholesale.com">jhunter@hyperionwholesale.com</a></h3></li>
     <li><h3>Phone:</h3></li>
-    <li><h3>(303)736-9049</h3></li>
+    <li><h3><a href"tel:+13037369049">(303)736-9049</a></h3></li>
   </ul>
 </div>
 </div>
@@ -114,7 +114,7 @@ An avid outdoorsmen and master chef in his free time, Lonestar Western Beef’s 
  
 
   <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-     <button type="button" class="btn btn-default brand-box brand-logo" id="gsl-logo" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Ever thought about the effect smoking has on your planet, beyond just the carcinogenic smoke released into the air after taking a drag? After all, what significance could one tiny cigarette have on the environment? Probably not much you'd think, but add up the roughly one billion smokers and 12.3 billion cigarettes that are smoked every day, the results may be surprising.
+     <button type="button" class="btn btn-default brand-box brand-logo" id="gsl-logo" data-container="body" data-toggle="popover" data-placement="top" title="About Green Smart Living: " data-content="Ever thought about the effect smoking has on your planet, beyond just the carcinogenic smoke released into the air after taking a drag? After all, what significance could one tiny cigarette have on the environment? Probably not much you'd think, but add up the roughly one billion smokers and 12.3 billion cigarettes that are smoked every day, the results may be surprising.
 
     Truth is, the tobacco industry's environmental impact reaches far beyond the cigarettes people smoke every day. That's why GreenSmartLiving has put together a visual snapshot of the true impact tobacco has on the world, from production to consumption. See it all for yourself." data-trigger="focus">
      </button>
@@ -122,7 +122,7 @@ An avid outdoorsmen and master chef in his free time, Lonestar Western Beef’s 
      </div>
 
    <div class="col-xs-12 col-sm-6 col-md-9 col-lg-9">
-      <div class="bottom-logo"><img src="/wordpress/wp-content/themes/hyperion_theme1/assets/images/hyperion-logo.svg"/></div>
+     <!--  <div class="bottom-logo"><img src="http://hyperionwholesale.com/wp-content/themes/hyperion_theme1.3/assets/images/hyperion-logo.svg" /></div> -->
       </div>  
 
 </div>
